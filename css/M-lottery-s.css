@@ -1,0 +1,18 @@
+.lottery-square{width: 536px;height: 412px;position: relative;background: url(http://game.gtimg.cn/images/qqgame/act/pcdemo/bg-lottery.jpg) no-repeat center;}
+.lottery-square .list-cm .item{position: absolute;width: 175px;height: 134px;text-align: center;}
+.lottery-square .list-cm img{width: 73px;height: 73px;overflow: hidden;font-size: 0;padding: 20px 0 0 0;}
+.lottery-square .list-cm .item-title{font-size: 14px;text-align: center;color: #999;}
+.lottery-square .mask{display: none;position: absolute;left: 0;top: 0;width: 100%;height: 100%;background: rgba(255,255,255,0.3);}
+.lottery-square .current .mask{display: block;}
+.lottery-square .list-cm .lottery-btn{width: 175px;height: 134px;overflow: hidden;text-align: center;position: absolute;z-index: 1;cursor:pointer;}
+.lottery-square .list-cm .lottery-btn .light{position: absolute;width: 60px;height: 134px;left: 60px;top: 0;background: url(http://game.gtimg.cn/images/qqgame/act/pcdemo/light.png) no-repeat center;}
+.lottery-square .list-cm .lottery-btn a{display: block;width: 100%;height: 30px;padding: 72px 0 30px;text-align: center;font-size: 14px;color: #b9a381;text-decoration: none;}
+.lottery-square .list-cm .item:nth-child(1){left: 0;top: 0;}
+.lottery-square .list-cm .item:nth-child(2){left: 180px;top: 0;}
+.lottery-square .list-cm .item:nth-child(3){left: 360px;top: 0;}
+.lottery-square .list-cm .item:nth-child(4){left: 360px;top: 139px;}
+.lottery-square .list-cm .item:nth-child(5){left: 360px;top: 278px;}
+.lottery-square .list-cm .item:nth-child(6){left: 180px;top: 278px;}
+.lottery-square .list-cm .item:nth-child(7){left: 0;top: 278px;}
+.lottery-square .list-cm .item:nth-child(8){left: 0;top: 139px;}
+.lottery-square .list-cm .lottery-btn{left: 180px;top: 139px;}
